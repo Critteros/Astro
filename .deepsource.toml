@@ -1,8 +1,9 @@
 version = 1
 
-[[analyzers]]
-name = "python"
-enabled = true
+test_patterns = ["src/**.test.ts"]
 
-  [analyzers.meta]
-  runtime_version = "3.x.x"
+exclude_patterns = ["dist/"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
