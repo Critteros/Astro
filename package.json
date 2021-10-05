@@ -1,0 +1,37 @@
+{
+  "name": "astro",
+  "version": "1.0.0",
+  "description": "A multi-purpose Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts",
+    "lint": "eslint src/**/*.ts",
+    "format": "eslint src/**/*.ts --fix",
+    "build": "tsc",
+    "start": "node dist/src/main.js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Critteros/Astro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Critteros/Astro/issues"
+  },
+  "homepage": "https://github.com/Critteros/Astro#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^16.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^7.0.2",
+    "prettier": "^2.4.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}
